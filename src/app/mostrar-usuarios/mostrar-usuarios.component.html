@@ -1,0 +1,16 @@
+<p>Mostrar Usuarios</p>
+<hr>
+<table>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let persona of personas">
+            <td>{{ persona.nombre }}</td>
+            <td>{{ persona.apellido }}</td>
+        </tr>
+    </tbody>
+</table>
