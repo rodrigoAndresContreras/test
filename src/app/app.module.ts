@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
-import { MostrarUsuariosComponent } from './mostrar-usuarios/mostrar-usuarios.component';
+import { MostrarUsuariosComponent } from './components/mostrar-usuarios/mostrar-usuarios.component';
+
 
 @NgModule({
   declarations: [
