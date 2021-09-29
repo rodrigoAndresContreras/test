@@ -8,10 +8,12 @@ import { UserService } from 'src/app/service/user.service';
 })
 export class MostrarUsuariosComponent implements OnInit {
 
-  personas : stringany[];
+  personas : any[];
   persona : any = {
     nombre:'', 
-    apellido:''
+    apellido:'',
+    edad:'',
+    direccion:''
   };
 
   constructor( private usuarios : UserService) { }

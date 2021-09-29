@@ -15,7 +15,7 @@ export class UserService {
   constructor(private HttpClient : HttpClient) { }
 
   getUsers(): Observable<any>{
-    return this.HttpClient.get(this.endpoint).pipe(map((response: any) => response));
+    return this.HttpClient.get(this.endpoint).pipe(map((response: any) => response.data));
   }
 }
 
